@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8yGn+bP1v5zzpSeZcSjdxmHSxoYEvaq/2CR4rI+RjExClRLC/JkNyblsCSESmTxihi0IeQP0LgeVotkPLkpCpg==",
+  "dgSpecHash": "CDtHBS3uveU3CMuCcan4Ua9lx917TYYIi8VnBZTzDHc59nK+a5qYGN4jyUwrUh+djpBKhMOrh/6fIYiyq042SQ==",
   "success": true,
-  "projectFilePath": "/home/xlcm/Desktop/epicodus/3 - C# and .NET/todo-list/ToDoList.Solution/ToDoList/ToDoList.csproj",
+  "projectFilePath": "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/ToDoList.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,12 @@
+/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/bin/Debug/net5.0/ToDoList.deps.json
+/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/bin/Debug/net5.0/ToDoList.dll
+/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/bin/Debug/net5.0/ref/ToDoList.dll
+/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/bin/Debug/net5.0/ToDoList.pdb
+/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/obj/Debug/net5.0/ToDoList.csproj.AssemblyReference.cache
+/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/obj/Debug/net5.0/ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/obj/Debug/net5.0/ToDoList.AssemblyInfoInputs.cache
+/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/obj/Debug/net5.0/ToDoList.AssemblyInfo.cs
+/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/obj/Debug/net5.0/ToDoList.csproj.CoreCompileInputs.cache
+/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/obj/Debug/net5.0/ToDoList.dll
+/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/obj/Debug/net5.0/ref/ToDoList.dll
+/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/obj/Debug/net5.0/ToDoList.pdb

@@ -1,33 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/xlcm/Desktop/epicodus/3 - C# and .NET/todo-list/ToDoList.Solution/ToDoList.Tests/ToDoList.Tests.csproj": {}
+    "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/ToDoList.Tests.csproj": {}
   },
   "projects": {
-    "/home/xlcm/Desktop/epicodus/3 - C# and .NET/todo-list/ToDoList.Solution/ToDoList.Tests/ToDoList.Tests.csproj": {
+    "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/ToDoList.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/xlcm/Desktop/epicodus/3 - C# and .NET/todo-list/ToDoList.Solution/ToDoList.Tests/ToDoList.Tests.csproj",
+        "projectUniqueName": "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/ToDoList.Tests.csproj",
         "projectName": "ToDoList.Tests",
-        "projectPath": "/home/xlcm/Desktop/epicodus/3 - C# and .NET/todo-list/ToDoList.Solution/ToDoList.Tests/ToDoList.Tests.csproj",
-        "packagesPath": "/home/xlcm/.nuget/packages/",
-        "outputPath": "/home/xlcm/Desktop/epicodus/3 - C# and .NET/todo-list/ToDoList.Solution/ToDoList.Tests/obj/",
+        "projectPath": "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/ToDoList.Tests.csproj",
+        "packagesPath": "/Users/whittenj/.nuget/packages/",
+        "outputPath": "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/xlcm/.nuget/NuGet/NuGet.Config"
+          "/Users/whittenj/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/xlcm/Desktop/epicodus/3 - C# and .NET/todo-list/ToDoList.Solution/ToDoList/ToDoList.csproj": {
-                "projectPath": "/home/xlcm/Desktop/epicodus/3 - C# and .NET/todo-list/ToDoList.Solution/ToDoList/ToDoList.csproj"
+              "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/ToDoList.csproj": {
+                "projectPath": "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/ToDoList.csproj"
               }
             }
           }
@@ -39,8 +39,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -70,31 +70,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/xlcm/Desktop/epicodus/3 - C# and .NET/todo-list/ToDoList.Solution/ToDoList/ToDoList.csproj": {
+    "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/xlcm/Desktop/epicodus/3 - C# and .NET/todo-list/ToDoList.Solution/ToDoList/ToDoList.csproj",
+        "projectUniqueName": "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/ToDoList.csproj",
         "projectName": "ToDoList",
-        "projectPath": "/home/xlcm/Desktop/epicodus/3 - C# and .NET/todo-list/ToDoList.Solution/ToDoList/ToDoList.csproj",
-        "packagesPath": "/home/xlcm/.nuget/packages/",
-        "outputPath": "/home/xlcm/Desktop/epicodus/3 - C# and .NET/todo-list/ToDoList.Solution/ToDoList/obj/",
+        "projectPath": "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/ToDoList.csproj",
+        "packagesPath": "/Users/whittenj/.nuget/packages/",
+        "outputPath": "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/xlcm/.nuget/NuGet/NuGet.Config"
+          "/Users/whittenj/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -105,8 +105,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -122,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
