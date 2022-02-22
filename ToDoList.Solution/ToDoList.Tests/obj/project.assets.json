@@ -1659,7 +1659,10 @@
         },
         "runtime": {
           "bin/placeholder/ToDoList.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -6024,19 +6027,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/whittenj/.nuget/packages/": {}
+    "/Users/BigBoi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/ToDoList.Tests.csproj",
+      "projectUniqueName": "/Users/BigBoi/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/ToDoList.Tests.csproj",
       "projectName": "ToDoList.Tests",
-      "projectPath": "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/ToDoList.Tests.csproj",
-      "packagesPath": "/Users/whittenj/.nuget/packages/",
-      "outputPath": "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/obj/",
+      "projectPath": "/Users/BigBoi/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/ToDoList.Tests.csproj",
+      "packagesPath": "/Users/BigBoi/.nuget/packages/",
+      "outputPath": "/Users/BigBoi/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/whittenj/.nuget/NuGet/NuGet.Config"
+        "/Users/BigBoi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -6048,8 +6051,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/ToDoList.csproj": {
-              "projectPath": "/Users/whittenj/Desktop/ToDoList/ToDoList.Solution/ToDoList/ToDoList.csproj"
+            "/Users/BigBoi/Desktop/ToDoList/ToDoList.Solution/ToDoList/ToDoList.csproj": {
+              "projectPath": "/Users/BigBoi/Desktop/ToDoList/ToDoList.Solution/ToDoList/ToDoList.csproj"
             }
           }
         }

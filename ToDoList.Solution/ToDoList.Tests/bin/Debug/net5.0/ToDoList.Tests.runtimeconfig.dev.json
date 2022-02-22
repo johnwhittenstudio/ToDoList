@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/whittenj/.dotnet/store/|arch|/|tfm|",
-      "/Users/whittenj/.nuget/packages"
+      "/Users/BigBoi/.dotnet/store/|arch|/|tfm|",
+      "/Users/BigBoi/.nuget/packages"
     ]
   }
 }
