@@ -25,15 +25,14 @@ namespace ToDoList
       services.AddMvc();
 
       services.AddEntityFrameworkMySql()
-          .AddDbContext<ToDoListContext>(options => options
-          .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
+        .AddDbContext<ToDoListContext>(options => options
+        .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
     }
 
     public void Configure(IApplicationBuilder app)
     {
       app.UseDeveloperExceptionPage();
       app.UseRouting();
-      app.UseStaticFiles();
 
       app.UseEndpoints(routes =>
       {

@@ -201,3 +201,4 @@
 /Users/BigBoi/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/obj/Debug/net5.0/ref/ToDoList.Tests.dll
 /Users/BigBoi/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/obj/Debug/net5.0/ToDoList.Tests.pdb
 /Users/BigBoi/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/obj/Debug/net5.0/ToDoList.Tests.genruntimeconfig.cache
+/Users/BigBoi/Desktop/ToDoList/ToDoList.Solution/ToDoList.Tests/bin/Debug/net5.0/MySqlConnector.dll
