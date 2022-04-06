@@ -4,23 +4,40 @@
 
 @using ToDoList.Models;
 @model IEnumerable<ToDoList.Models.Item>
-
-<h1>Items for @User.Identity.Name</h1>
-
-@if (Model.Any())
-{
-  <ul>
-    @foreach (Item item in Model)
-    {
-      <li>@Html.ActionLink($"{item.Description}", "Details", new { id = item.ItemId })</li>
-    }
-  </ul>
-} 
-else
-{
-  <h3>No items have been added yet!</h3>
-}
-
-<p>@Html.ActionLink("Add new item", "Create")</p>
-
-<p>@Html.ActionLink("Home", "Index", "Home")</p>
+<div class="container">
+  <br>
+  <br>
+  <div class="col-md-12">
+    <div class=row>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <div id="card" class="card border-dark mb-3" style="position: center; width: 100%; height: 50%">
+        <div class="card-header">
+        <center><strong><h1 id="title" style="font-size:4vw">Items for @User.Identity.Name</h1></strong></center>
+      </div>
+      &nbsp;
+      @if (Model.Any())
+      {
+        <center>
+          @foreach (Item item in Model)
+          {
+            <h3>@Html.ActionLink($"{item.Description}", "Details", new { id = item.ItemId })</h3>
+          }
+        </center>
+      } 
+      else
+      {
+        <center><h3>No items have been added yet!</h3></center>
+      }
+      &nbsp;
+      &nbsp;
+      <center><button id="button" type="button" class="btn btn-outline-dark my-sm-0"style="max-height: 5rem; max-width: 15rem;">@Html.ActionLink("Add new item", "Create")</button>
+      &nbsp;
+      <button id="button" type="button" class="btn btn-outline-dark my-sm-0"style="max-height: 5rem; max-width: 15rem;">@Html.ActionLink("Home", "Index", "Home")</button></center>
+      &nbsp;
+      &nbsp;
+    </div>
+  </div>
+</div>

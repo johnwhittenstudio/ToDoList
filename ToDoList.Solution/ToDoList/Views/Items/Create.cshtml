@@ -3,20 +3,41 @@
 }
 
 @model ToDoList.Models.Item
+<div class="container">
+  <br>
+  <br>
+  <div class="col-md-12">
+    <div class=row>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <div id="card" class="card border-dark mb-3" style="position: center; width: 100%; height: 50%">
+        <div class="card-header">
+          <center>
+          <h1>Add a new task</h1>
+          </center>
+        </div>
+        &nbsp;  
+        @using (Html.BeginForm())
+        {
+          <center>
+            @Html.LabelFor(model => model.Description)
+            @Html.TextBoxFor(model => model.Description, new { @required  = "required"})
 
-<h4>Add a new task</h4>
+            @Html.LabelFor(model => model.DueDate)
+            @Html.TextBoxFor(model => model.DueDate, new { @required  = "required"})
 
-@using (Html.BeginForm())
-{
-    @Html.LabelFor(model => model.Description)
-    @Html.TextBoxFor(model => model.Description)
+            @Html.Label("Select category")
+            @Html.DropDownList("CategoryId")
 
-    @Html.LabelFor(model => model.DueDate)
-    @Html.TextBoxFor(model => model.DueDate)
-
-    @Html.Label("Select category")
-    @Html.DropDownList("CategoryId")
-
-    <input type="submit" value="Add new item" class="btn btn-default" />
-}
-<p>@Html.ActionLink("Show all items", "Index")</p>
+            <input id="button" class="btn btn-outline-dark my-sm-0" type="submit" value="Add new item" class="btn btn-default" />
+            </center>
+        }
+        &nbsp;
+        <center><button id="button" type="button" class="btn btn-outline-dark my-sm-0" style="max-height: 5rem; max-width: 15rem;">@Html.ActionLink("Show all items", "Index")</button></center>
+        &nbsp;
+        &nbsp;
+      </div>
+    </div>
+  </div>

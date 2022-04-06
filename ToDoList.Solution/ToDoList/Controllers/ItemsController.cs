@@ -23,6 +23,7 @@ namespace ToDoList.Controllers
       _db = db;
     }
 
+
     public async Task<ActionResult> Index()
     {
         var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -54,6 +55,7 @@ namespace ToDoList.Controllers
         return RedirectToAction("Index");
     }
 
+    [AllowAnonymous]
     public ActionResult Details(int id)
     {
       var thisItem = _db.Items

@@ -3,11 +3,72 @@ div#footer {
   bottom:0px;
   left:0px;
   width:100%;
-  color:#CCC;
-  background:#333;
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(45, 47, 116);
+  background:rgb(254, 255, 170);
   padding:8px;
 }
 
-p {
-  font-size: 12px;
+#logo {
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(45, 47, 116);
+  margin-right: 22%;
+}
+
+#title{
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(45, 47, 116);
+  background:rgb(254, 255, 170);
+}
+
+#card{
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(45, 47, 116);
+  background:rgb(254, 255, 170);
+  border:rgb(254, 255, 170);
+  border-radius: 0%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#button{
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(45, 47, 116);
+  background:rgb(254, 255, 170);
+}
+
+#searchBar {
+  margin-left: 25%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(254, 255, 170);
+}
+
+.nav-link {
+  color: rgb(45, 47, 116);
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(45, 47, 116);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(45, 47, 116);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(98, 103, 249);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+hr {
+  margin-right: 10%;
 }
