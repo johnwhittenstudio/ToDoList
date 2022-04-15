@@ -1,10 +1,10 @@
-# 🗒️ **To Do List** 🗒️ 
+# <p align="center"> 🗒️ **To Do List** 🗒️ 
 
-#### _a web-based application to keep track of to-do items and their respective categories using Entity to manage a many-to-many relationship in an SQL database and Identity to manage user Authentication._
+#### _A web-based application to keep track of to-do items and their respective categories using Entity to manage a many-to-many relationship in an SQL database and Identity to manage user Authentication._ </p>
 
-#### by **John Whitten**
+#### by **John Whitten** ~ April 8, 2022
 ![Cover](./ToDoList.Solution/ToDoList/wwwroot/img/img_01.png/)
-#### April 8, 2022
+
 
 ## Table of Contents
 
