@@ -1,4 +1,4 @@
-# 🧁 **To Do List** 🧁 
+# 🗒️ **To Do List** 🗒️ 
 
 #### _a web-based application to keep track of to-do items and their respective categories using Entity to manage a many-to-many relationship in an SQL database and Identity to manage user Authentication._
 
