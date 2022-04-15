@@ -3,7 +3,7 @@
 #### _a web-based application to keep track of to-do items and their respective categories using Entity to manage a many-to-many relationship in an SQL database and Identity to manage user Authentication._
 
 #### by **John Whitten**
-![Cover](./ToDoList/wwwroot/img/img_01.png)
+![Cover](./ToDoList.Solution/ToDoList/wwwroot/img/img_01.png/)
 #### April 8, 2022
 
 ## Table of Contents
